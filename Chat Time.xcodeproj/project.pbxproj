@@ -68,6 +68,7 @@
 		B384C0442A61237D00BF2FC4 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B384C0432A61237D00BF2FC4 /* FirebaseRemoteConfigSwift */; };
 		B384C0462A61237D00BF2FC4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B384C0452A61237D00BF2FC4 /* FirebaseStorage */; };
 		B384C0482A61237D00BF2FC4 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B384C0472A61237D00BF2FC4 /* FirebaseStorageCombine-Community */; };
+		B3D7B5CA2A66C526002BF1DA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D7B5C92A66C526002BF1DA /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,7 @@
 		B384C00C2A60654100BF2FC4 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		B384C00E2A6065BF00BF2FC4 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		B384C0102A6122D100BF2FC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B3D7B5C92A66C526002BF1DA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				B384BFB92A603D6800BF2FC4 /* Nunito */,
 				B384BFE32A604F9400BF2FC4 /* MessagesViewController.swift */,
 				B384C00E2A6065BF00BF2FC4 /* NavBar.swift */,
+				B3D7B5C92A66C526002BF1DA /* StringExtension.swift */,
 				B384C0102A6122D100BF2FC4 /* GoogleService-Info.plist */,
 			);
 			path = "Chat Time";
@@ -231,6 +234,7 @@
 				B384BF952A5D91E300BF2FC4 /* Sources */,
 				B384BF962A5D91E300BF2FC4 /* Frameworks */,
 				B384BF972A5D91E300BF2FC4 /* Resources */,
+				B3D7B5CD2A66FE37002BF1DA /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -341,6 +345,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3D7B5CD2A66FE37002BF1DA /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B384BF952A5D91E300BF2FC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -348,6 +373,7 @@
 			files = (
 				B384BFE42A604F9400BF2FC4 /* MessagesViewController.swift in Sources */,
 				B384BFE82A60510700BF2FC4 /* AuthTableViewController.swift in Sources */,
+				B3D7B5CA2A66C526002BF1DA /* StringExtension.swift in Sources */,
 				B384C00F2A6065BF00BF2FC4 /* NavBar.swift in Sources */,
 				B384BFA72A5D91E300BF2FC4 /* Chat_Time.xcdatamodeld in Sources */,
 				B384C00D2A60654100BF2FC4 /* RoundedButton.swift in Sources */,

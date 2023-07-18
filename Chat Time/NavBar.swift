@@ -11,24 +11,24 @@ class CTNavigataionController: UINavigationController {
 
     override init(rootViewController: UIViewController) {
         super.init(rootViewController: rootViewController)
-        
+
         // Customize the navigation bar appearance
         modalPresentationStyle = .fullScreen
         navigationBar.prefersLargeTitles = true
 //        navigationItem.largeTitleDisplayMode = .always
-        let Appcolor = UIColor(named: "AppThemeColor")
+        let appcolor = UIColor(named: "AppThemeColor")
 //        navigationBar.tintColor = Appcolor
 //        navigationBar.backgroundColor = Appcolor
 //        navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        
+
 //
-        
+
         let navigationBarAppearance = UINavigationBarAppearance()
         navigationBarAppearance.configureWithOpaqueBackground()
         navigationBarAppearance.largeTitleTextAttributes = [
             NSAttributedString.Key.foregroundColor : UIColor.white
         ]
-        navigationBarAppearance.backgroundColor = Appcolor
+        navigationBarAppearance.backgroundColor = appcolor
         UINavigationBar.appearance().standardAppearance = navigationBarAppearance
         UINavigationBar.appearance().compactAppearance = navigationBarAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = navigationBarAppearance

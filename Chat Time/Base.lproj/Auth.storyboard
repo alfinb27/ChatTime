@@ -177,20 +177,10 @@
             </objects>
             <point key="canvasLocation" x="-63.358778625954194" y="-446.47887323943667"/>
         </scene>
-        <!--Chat-->
-        <scene sceneID="GbD-E4-Coz">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Chat" id="MSl-bh-3V7" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="Iop-5X-zrL"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4pQ-Ih-hiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="698" y="-156"/>
-        </scene>
         <!--Sign UpVC-->
         <scene sceneID="kQW-6C-iaI">
             <objects>
-                <tableViewController id="pLu-0R-phF" customClass="SignUpVC" customModule="Chat_Time" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController keyboardType="off" id="pLu-0R-phF" customClass="SignUpVC" customModule="Chat_Time" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="jgy-M7-rVM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,7 +202,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="273" height="118"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvm-Pi-QLk">
-                                                            <rect key="frame" x="76.666666666666657" y="126" width="119.66666666666666" height="46"/>
+                                                            <rect key="frame" x="72.666666666666657" y="126" width="127.66666666666666" height="46"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="46" id="yZZ-aA-ucR"/>
                                                             </constraints>
@@ -362,7 +352,6 @@
                         <outlet property="emailTextField" destination="QOe-mJ-PYK" id="qWE-7R-s4i"/>
                         <outlet property="passwordTextField" destination="KXf-rl-tO2" id="6FV-tf-wf2"/>
                         <outlet property="usernameTextField" destination="byA-9I-Goj" id="he5-Xe-twK"/>
-                        <segue destination="MSl-bh-3V7" kind="show" identifier=" segue.Auth.signUpToApp" id="Ggh-rZ-bIC"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8eh-OB-mcI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
