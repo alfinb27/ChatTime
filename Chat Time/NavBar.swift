@@ -26,7 +26,7 @@ class CTNavigataionController: UINavigationController {
         let navigationBarAppearance = UINavigationBarAppearance()
         navigationBarAppearance.configureWithOpaqueBackground()
         navigationBarAppearance.largeTitleTextAttributes = [
-            NSAttributedString.Key.foregroundColor : UIColor.white
+            NSAttributedString.Key.foregroundColor: UIColor.white
         ]
         navigationBarAppearance.backgroundColor = appcolor
         UINavigationBar.appearance().standardAppearance = navigationBarAppearance
@@ -38,10 +38,7 @@ class CTNavigataionController: UINavigationController {
 //        tabBarApperance.backgroundColor = UIColor.blue
 //        UITabBar.appearance().scrollEdgeAppearance = tabBarApperance
 //        UITabBar.appearance().standardAppearance = tabBarApperance
-        
-      
     }
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }

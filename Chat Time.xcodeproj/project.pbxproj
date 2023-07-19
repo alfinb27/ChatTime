@@ -69,6 +69,7 @@
 		B384C0462A61237D00BF2FC4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B384C0452A61237D00BF2FC4 /* FirebaseStorage */; };
 		B384C0482A61237D00BF2FC4 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B384C0472A61237D00BF2FC4 /* FirebaseStorageCombine-Community */; };
 		B3D7B5CA2A66C526002BF1DA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D7B5C92A66C526002BF1DA /* StringExtension.swift */; };
+		B3D7B5CF2A67E055002BF1DA /* ChatTimeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D7B5CE2A67E055002BF1DA /* ChatTimeUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,7 @@
 		B384C00E2A6065BF00BF2FC4 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 		B384C0102A6122D100BF2FC4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B3D7B5C92A66C526002BF1DA /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		B3D7B5CE2A67E055002BF1DA /* ChatTimeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTimeUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,11 +182,12 @@
 				B384BFB72A603BE000BF2FC4 /* SignUpVC.swift */,
 				B384BFE72A60510700BF2FC4 /* AuthTableViewController.swift */,
 				B384C00C2A60654100BF2FC4 /* RoundedButton.swift */,
-				B384BFB92A603D6800BF2FC4 /* Nunito */,
 				B384BFE32A604F9400BF2FC4 /* MessagesViewController.swift */,
 				B384C00E2A6065BF00BF2FC4 /* NavBar.swift */,
 				B3D7B5C92A66C526002BF1DA /* StringExtension.swift */,
 				B384C0102A6122D100BF2FC4 /* GoogleService-Info.plist */,
+				B384BFB92A603D6800BF2FC4 /* Nunito */,
+				B3D7B5CE2A67E055002BF1DA /* ChatTimeUser.swift */,
 			);
 			path = "Chat Time";
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				B384C00D2A60654100BF2FC4 /* RoundedButton.swift in Sources */,
 				B384BF9D2A5D91E300BF2FC4 /* AppDelegate.swift in Sources */,
 				B384BF9F2A5D91E300BF2FC4 /* SceneDelegate.swift in Sources */,
+				B3D7B5CF2A67E055002BF1DA /* ChatTimeUser.swift in Sources */,
 				B384BFB82A603BE000BF2FC4 /* SignUpVC.swift in Sources */,
 				B384BFB62A600AC600BF2FC4 /* SignInVC.swift in Sources */,
 			);
